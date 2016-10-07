@@ -119,6 +119,12 @@ aside {
     padding: 50px 0;
 }
 
+@media only screen and (max-width: 768px) {
+    aside {
+        padding-top: 200px;
+    }
+}
+
 .no-padding {
     padding: 0;
 }
@@ -712,6 +718,7 @@ p2 {
 .about-image.pull-left {
   margin-right: 60px;
 }
+
 .about-image.pull-right {
   margin-left: 120px;
 }
