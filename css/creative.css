@@ -43,7 +43,7 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    color: #265C72;
+    color: #487A87;
 }
 
 /*========fonts====================================================*/
@@ -99,7 +99,7 @@ p.caption {
 
 .bg-dark {
     color: #fff;
-    background-color: #222;
+    background-color: #2E313D;
 }
 
 .bg-blue {
@@ -120,8 +120,8 @@ aside {
 }
 
 @media only screen and (max-width: 768px) {
-    aside {
-        padding-top: 200px;
+    section {
+        padding: 0;
     }
 }
 
@@ -238,13 +238,20 @@ aside {
 
 /*===========================================================================================*/
 .navbar-custom {
-  position: absolute;
+  position: relative;
   padding-top: 40px;
   left: 0;
   width: 100%;
   z-index: 3;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
+@media only screen and (max-width: 768px) {
+  .navbar-custom {
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+}
+
 .navbar-custom .navbar-brand {
   font-weight: 600;
 }
@@ -325,6 +332,8 @@ aside {
     -o-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
+
+
 /*
   @media (min-width: 768px){
     .logo {
@@ -356,7 +365,7 @@ header {
     text-align: center;
     /*color: #fff;*/
     /*background-image: url(../img/header.jpg);*/
-    /*background-color: #265C72;*/
+    /*background-color: #487A87;*/
     background-color: #ffffff;
     background-position: center;
     -webkit-background-size: cover;
@@ -366,7 +375,7 @@ header {
 }
 
 header .header-content {
-    position: relative;
+    position: absolute;
     width: 100%;
     padding: 100px 15px;
     text-align: center;
@@ -468,7 +477,7 @@ header .header-content .header-content-inner p {
     color: #fff;
     opacity: 0;
     /*background: rgba(240,95,64,.9);*/
-    /*background: #FCF8E3;*/
+    /*background: #B8D0D6;*/
     background: #222222;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -553,7 +562,7 @@ header .header-content .header-content-inner p {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
     border-color: #222222;
-    color: #FCF8E3;
+    color: #B8D0D6;
     background-color: #222222;
 }
 
@@ -591,9 +600,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #265C72;
+    border-color: #487A87;
     color: #fff;
-    background-color: #265C72;
+    background-color: #487A87;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -605,9 +614,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #FCF8E3;
+    border-color: #B8D0D6;
     color: #fff;
-    background-color: #FCF8E3;
+    background-color: #B8D0D6;
 }
 
 .btn-primary:active,
@@ -683,7 +692,7 @@ body {
 
 /*============================================================================*/
 #footer a{
-    color: #265C72;
+    color: #487A87;
 }
 
 p2 {
@@ -694,6 +703,7 @@ p2 {
     footer {
         padding-left: 80px;
         padding-right: 80px;
+        padding-top: 40px;
     }
 }
 
@@ -703,7 +713,7 @@ p2 {
 /* Pad the edges of the mobile views a bit */
 .about {
     margin-top: -60px;
-    margin-bottom: -10px; 
+    /*margin-bottom: -10px;*/
     padding-left: 70px;
     padding-right: 80px;
     overflow: hidden;  /*Vertically center images part 2: clear their floats. */
@@ -790,7 +800,8 @@ p.text-right {
         padding-right: 40px;
     }
     .about-image.pull-left {
-        margin: 20px 80px 20px 80px;
+        margin: 20px 80px 20px 0px;
+        width: 100%;
     }
     .about-heading {
         margin-top: 0;
@@ -935,3 +946,7 @@ p.text-right {
     display: none;
     opacity: 0;
 }
+
+
+
+
