@@ -43,7 +43,8 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    color: #487A87;
+    /*color: #487A87;*/
+    color: gray;
 }
 
 /*========fonts====================================================*/
@@ -129,16 +130,16 @@ aside {
     padding: 0;
 }
 
-/*
 .navbar-default {
-    border-color: rgba(34,34,34,.05);
+    border-color: white;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: transparent;
+    background-color: white;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
 
+/*
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -423,6 +424,10 @@ header .header-content .header-content-inner p {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
+    header .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
     header .header-content .header-content-inner {
         margin-right: auto;
@@ -465,6 +470,10 @@ header .header-content .header-content-inner p {
     position: relative;
     margin: 0 auto;
     max-width: 650px;
+}
+
+.portfolio-box p {
+    color: #ffffff;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -600,9 +609,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #487A87;
+    /*border-color: #487A87;*/
     color: #fff;
-    background-color: #487A87;
+    background-color: gray;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -692,7 +701,9 @@ body {
 
 /*============================================================================*/
 #footer a{
-    color: #487A87;
+    /*color: #487A87;*/
+    color: #000000;
+    opacity: 0.3;
 }
 
 p2 {
@@ -723,6 +734,11 @@ p2 {
 /*.about-image {
   margin-top: 0px;  
 }*/
+
+.about-image {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
 
 /* Give some space on the sides of the floated elements so text doesn't run right into it. */
 .about-image.pull-left {
@@ -796,8 +812,8 @@ p.text-right {
 
     .about {
         margin-top: 60px;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .about-image.pull-left {
         margin: 20px 80px 20px 0px;
@@ -947,6 +963,9 @@ p.text-right {
     opacity: 0;
 }
 
+.modal-body h2{
+    color: black;
+}
 
 
 
