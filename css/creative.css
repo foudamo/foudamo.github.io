@@ -112,9 +112,9 @@ p.caption {
     color: rgba(255,255,255,.7);
 }
 
-section {
+/*section {
     padding: 100px 0;
-}
+}*/
 
 aside {
     padding: 50px 0;
@@ -442,11 +442,25 @@ header .header-content .header-content-inner p {
         font-size: 18px;
     }
 }
+@media only screen and (max-width: 768px) {
+    header img{
+        width: 80%;
+    }
+}
 /*=====================================================================================================*/
-aside .container {
+@media only screen and (max-width: 768px) {
+    aside .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    aside .container {
         padding-left: 80px;
         padding-right: 80px;
     }
+}
 
 .section-heading {
     margin-top: 0;
@@ -535,10 +549,18 @@ aside .container {
     }
 }
 /*=====================================================================================================*/
+@media only screen and (max-width: 768px) {
+    #other {
+        margin-top: -80px;
+        margin-bottom: -20px;
+    }
+}
 
-#other {
-    margin-top: -80px;
-    margin-bottom: -20px;
+@media only screen and (min-width: 768px) {
+    #other {
+        margin-bottom: 100px;
+    }
+
 }
 
 #other h2{
@@ -727,7 +749,7 @@ p2 {
 ------------------------- */
 /* Pad the edges of the mobile views a bit */
 .about {
-    margin-top: -60px;
+    /*margin-top: -60px;*/
     /*margin-bottom: -10px;*/
     padding-left: 70px;
     padding-right: 80px;
@@ -903,8 +925,19 @@ p.text-right {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .portfolio-modal .modal-content {
+        padding: 150px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .portfolio-modal .modal-content {
+        padding: 200px 0;
+    }
+}
+
 .portfolio-modal .modal-content {
-    padding: 200px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -975,5 +1008,19 @@ p.text-right {
     font-size: 14px;
 }
 
+/*====================================================*/
 
+@media only screen and (max-width: 768px) {
+    #other .col-xs-offset-3{
+        margin-right: 25%;
+        margin-left: 25%;
+        padding: 0;
+    }
+    /*#other .col-xs-6{
+        width: 100%;
+    }*/
+}
 
+@media only screen and (min-width: 768px) {
+
+}
