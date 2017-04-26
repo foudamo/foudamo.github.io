@@ -443,6 +443,10 @@ header .header-content .header-content-inner p {
     }
 }
 /*=====================================================================================================*/
+aside .container {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
 
 .section-heading {
     margin-top: 0;
@@ -900,7 +904,7 @@ p.text-right {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding: 200px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -965,6 +969,10 @@ p.text-right {
 
 .modal-body h2{
     color: black;
+}
+
+.modal-body p{
+    font-size: 14px;
 }
 
 
