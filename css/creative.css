@@ -750,10 +750,11 @@ p2 {
 /* Pad the edges of the mobile views a bit */
 .about {
     /*margin-top: -60px;*/
-    /*margin-bottom: -10px;*/
+    /*margin-bottom: -10px;
     padding-left: 70px;
     padding-right: 80px;
-    overflow: hidden;  /*Vertically center images part 2: clear their floats. */
+    overflow: hidden;*/  /*Vertically center images part 2: clear their floats. */
+    width: 600px;
 }
 
 /*Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
@@ -838,8 +839,10 @@ p.text-right {
 
     .about {
         margin-top: 60px;
-        padding-left: 20px;
+        /*padding-left: 20px;*/
+        padding-left: 10px;
         padding-right: 20px;
+        width: 290px;
     }
     .about-image.pull-left {
         margin: 20px 80px 20px 0px;
@@ -1019,8 +1022,8 @@ p.text-right {
     /*#other .col-xs-6{
         width: 100%;
     }*/
-}
 
-@media only screen and (min-width: 768px) {
-
+    .contact-image.pull-right {
+        width: 115%;
+    }
 }

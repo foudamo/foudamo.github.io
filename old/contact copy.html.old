@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
     <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
@@ -126,7 +126,6 @@
             <div class="about">
 
                 <h2 class="about-heading text-left"><span class="text-muted">Hi there!</span> I am Mohamed</h2>
-                <!--<p3 class="text-left text-muted"><small>(Yup! The most common name in the world. If I remember<br>correctly, I think I might be number 726,239,470!)</small></p3>-->
                 <p class="light text-left text-muted" style="margin-top: -10px; margin-bottom: 26px"><small>(Yup! Yup! The most common name in the world!)</small></p>
                 <img class="about-image img-circle pull-left" src="img/Avatar.png">
 
@@ -142,10 +141,12 @@
                <!-- <a href="#about" class="about-heading text-right btn btn-primary btn-xl page-scroll">Find Out More</a> -->
             </div> 
         </div>
+        <img class="contact-image pull-right" src="img/contact.png">
     </section>
 
+
 <!-- =================================Footer========================================== --> 
-    <footer id="footer" style="margin-top: 100px">
+    <footer id="footer">
 
         <nav id="footerNav" class="navbar navbar-bottom">
 
