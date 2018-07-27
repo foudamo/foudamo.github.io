@@ -355,7 +355,6 @@ aside {
   a {
       text-decoration: none;
   }*/
-}
 /*===================================================================*/
 
 /*=====================================================================================================*/
@@ -457,8 +456,8 @@ header .header-content .header-content-inner p {
 
 @media only screen and (min-width: 768px) {
     aside .container {
-        padding-left: 80px;
-        padding-right: 80px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 }
 
@@ -732,16 +731,15 @@ body {
     opacity: 0.3;
 }
 
+footer {
+    margin: 100px;
+}
+
 p2 {
     opacity: 0.3;
 }
 @media (max-width: 979px) {
 
-    footer {
-        padding-left: 80px;
-        padding-right: 80px;
-        padding-top: 40px;
-    }
 }
 
 /*=================================================================*/
