@@ -132,9 +132,9 @@ aside {
 }
 
 .navbar-default {
-    border-color: white;
+    border-color: #2A2A2A;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: black;
+    background-color: #2A2A2A;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
